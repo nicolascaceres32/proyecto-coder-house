@@ -179,7 +179,7 @@ transition-property: all;
 
 }
 
-
+/* REDES */
 .redes__title {
     background-color: rgb(55, 113, 223);
     text-align: center;
@@ -321,3 +321,127 @@ transition-property: all;
 }
 
 
+@media (min-width: 1280px) {
+    .header {
+        background-color: rgb(39, 157, 211);
+        padding: 19px;
+    
+        width: 100vw;
+    
+    }
+    
+    .header__title {
+    
+        text-align: center;
+        padding: 10px;
+        
+    
+    }
+    
+    
+    .header__nav ul {
+    
+        
+        display: flex;
+        justify-content: space-around;
+        padding: 2%;
+        
+       
+    
+    
+    }
+    
+    .header__logo {
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .header__logo img {
+    
+        padding: 1px;
+        width: 17%;
+    
+    
+    }
+
+    .tarjeta {
+
+
+        border: solid 2px black;
+        border-radius: 20px;
+        width: 180px;
+        padding: 20px;
+    
+        display: flex;
+     flex-direction: column;
+    }
+    
+    .tarjeta_img {
+    
+        width: 100%;
+    }
+    
+    .tarjeta__title {
+        text-align: center;
+        padding: 10px;
+        display: flex;
+    }
+    
+    .tarjeta__boton {
+    
+        padding: 13px 9px;
+        border: 2px solid black;
+        text-align: center;
+        border-radius: 20px;
+        background-color: aliceblue;
+    
+    
+    transition-property: all;
+        transition-delay: 50ms;
+    }
+    
+    .tarjeta__boton:hover{
+       color: rgb(255, 255, 255);
+       background-color: rgb(45, 93, 253);
+       border: 2px solid dodgerblue;
+    
+    
+    }
+    
+    .productos {
+    
+        
+        
+        padding: 10px;
+    }
+    
+    
+    
+    .productos__contenedor {
+    
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 30% 30% 30% 30% 30%;
+        grid-template-rows: auto;
+    
+    
+    
+    
+    }
+    
+    
+    .redes__title {
+        background-color: rgb(55, 113, 223);
+        text-align: center;
+        padding: 14px;
+    }
+    
+    .contenedor-redes {
+        display: flex;
+        justify-content: space-around;
+        font-size: 2rem;
+    }
+}
