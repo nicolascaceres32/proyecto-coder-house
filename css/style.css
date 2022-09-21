@@ -128,7 +128,21 @@ a {
     text-align: center;
     border-radius: 20px;
     background-color: aliceblue;
+
+
+transition-property: all;
+    transition-delay: 50ms;
 }
+
+.tarjeta__boton:hover{
+   color: rgb(255, 255, 255);
+   background-color: rgb(45, 93, 253);
+   border: 2px solid dodgerblue;
+
+
+}
+
+
 
 
 
