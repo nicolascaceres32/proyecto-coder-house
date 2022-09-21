@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/*  HEADER */
+
+
+.header {
+    background-color: rgb(0, 94, 138);
+    padding: 19px;
+
+    width: 100vw;
+
+}
+
+.header__title {
+
+    text-align: center;
+    padding: 10px;
+
+}
+
+.header__nav ul {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+
+
+}
+
+.header__logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header__logo img {
+
+    padding: 10px;
+    width: 10%;
+
+
+}
+
+
+@media (min-width: 768px) {
+
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav ul {
+    display: flex;
+    justify-content: space-around;
+
+
+
+
+}
+
+.header__logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header__logo img {
+
+    padding: 5px;
+    width: 40%;
+
+
+}
+
+
+
+}
+.tarjeta {
+
+
+    border: solid 2px black;
+    border-radius: 20px;
+    width: 180px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta_img {
+
+    width: 100%;
+}
+
+.tarjeta__title {
+    text-align: center;
+    padding: 10px;
+}
+
+.tarjeta__boton {
+
+    padding: 13px 9px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+
+
+
+
+.productos__contenedor {
+
+    padding: 10px;
+    display: flex;
+
+
+
+
+}
+
+
+.redes__title {
+    background-color: rgb(55, 113, 223);
+    text-align: center;
+    padding: 14px;
+}
+
+.contenedor-redes {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+}
