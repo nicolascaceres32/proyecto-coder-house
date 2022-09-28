@@ -377,9 +377,9 @@ transition-property: all;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 10%;
+        padding: 15%;
         
-       font-size: 1.5rem
+       font-size: 1.5rem;
        
        
     
@@ -480,8 +480,9 @@ transition-property: all;
 
 
 .armado__imagenn{
-    width: 50%;
+    width: 50vh;
     border-radius: 30px;
+    
     
 
 }
@@ -497,9 +498,6 @@ background-size: cover;
 
 }
 
-.armado__contendedor{
 
-
-
-
-}
+   
+    
