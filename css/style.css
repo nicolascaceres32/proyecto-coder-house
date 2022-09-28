@@ -98,6 +98,7 @@ a {
         align-items: center;
         width: 100%;
         
+        
        
     
     
@@ -234,7 +235,8 @@ transition-property: all;
         justify-content: space-around;
         padding: 2%;
        
-       
+        
+        align-items: center;
     
     
     }
